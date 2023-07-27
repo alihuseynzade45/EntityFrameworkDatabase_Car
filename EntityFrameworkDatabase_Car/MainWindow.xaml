@@ -20,7 +20,7 @@
         <Button x:Name="BtnDelete" Content="Delete" Margin="660,100,0,0" Height="40" Width="100" FontSize="20" Click="BtnDelete_Click"></Button>
 
 
-        <ListView x:Name="CarsListBox" Margin="0,0,420,0" Height="400" Width="350" BorderThickness="3" ItemsSource="{Binding Cars}" SelectionChanged="Cars_SelectionChanged">
+        <ListView x:Name="Cars " Margin="0,0,420,0" Height="400" Width="350" BorderThickness="3" ItemsSource="{Binding cars}" SelectionChanged="Cars_SelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Mark" DisplayMemberBinding="{Binding Mark}"/>
